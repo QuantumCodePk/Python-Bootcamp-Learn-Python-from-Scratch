@@ -1,0 +1,17 @@
+# f-string (formatted string literals)
+# f-strings let us insert variables or expressions directly into a string.
+# We write an f before the string and place the expression inside curly braces {}.
+
+name = "Manish"
+age = 21
+
+print(f"My name is {name} and I am {age} years old.")
+
+# Example with an expression
+price = 50
+quantity = 3
+print(f"Total amount = {price * quantity}")
+
+# Example with formatting
+pi = 3.14159
+print(f"Value of pi = {pi:.2f}")
